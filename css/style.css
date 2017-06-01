@@ -1,0 +1,169 @@
+body{
+	font-family: inherit;
+}
+header{
+	position: fixed;
+	z-index: 300;
+	height: 70px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu ul li{
+	padding-right: 30px;
+	font-weight: bold;
+	font-size: 12px;
+	
+}
+.menu ul li a{
+	color: black;
+}
+.fond{
+	background-image: url('../images/back1.jpg');
+	height: 610px;
+	background-size: cover;
+	padding-top: 150px;
+	text-align: center;
+	color: white;
+}
+.fond h1{
+	font-size: 60px;
+	font-weight: 900;
+}
+.fond p{
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.btn{
+	font-weight: bold;
+	font-size: 12px;
+}
+#element{
+	height: 300px;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 100px;
+}
+#element img{
+	margin-top: 15px;
+	margin-left: 55px;
+}
+#element h4{
+	font-weight: bold;
+}
+#tel1{
+	height: 435px;
+	display: flex;
+	justify-content: space-around;
+	background-color: #eee;
+	align-items: center;
+	padding: 50px 80px 0 80px;
+}
+.toff{
+	height: 300px;
+	background-size: cover;
+}
+#tab{
+	height: 350px;
+	background-image: url(../images/banner1.jpg);
+	background-repeat:no-repeat; 
+	/*display: flex;
+	justify-content: space-between;*/
+}
+#tab ul li,#screen ul li{
+	line-height: 40px;
+	font-size: 14px;
+}
+#tab h3,#screen h3{
+	font-weight:bold;
+	font-size: 16px;
+}
+#screen{
+	padding-top: 20px;
+	background-color: #f5f5f5;
+	height: 390px;
+	display: flex;
+	align-items: center;
+	padding-left: 60px;
+}
+.photo{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	padding: 50px 13em 0 13em;
+	text-align: center;
+}
+.photo h6{
+	font-weight: bold;
+}
+.imgfeuille{
+	width: 100%;
+	padding-left: 46em;
+	background: linear-gradient(white,white, #699,#699);
+
+}
+#feuille{
+	height: 600px;
+	width: 100%;
+	background: #699;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	color: white;
+}
+#feuille h1{
+	font-weight: 900;
+	padding: 30px 0;
+}
+#feuille .btn{
+	margin-top: 30px;
+	background-color: transparent;
+	border-color: white;
+	width: 200px;
+}
+#af{
+	height: 300px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.boutton .fa-lock{width: 200px;}
+.boutton .sec{
+	background-color: transparent;
+	width: 200px;
+	color: gray;
+	border-color: gray;
+}
+#af p{
+	margin: 20px 0 ;
+	text-align: center;
+}
+#af h2{ font-weight: 900; }
+.download{
+	height: ;
+}
+#footer{
+	background-color: black;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	font-size: 10px;
+	color: white;
+	padding-top: 30px;
+}
+
+.list-inline a{
+	text-decoration: none;
+	color: white;
+	 
+}
+#footer .fa{
+	color: cyan;
+	font-size: 20px;
+}
